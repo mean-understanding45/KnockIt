@@ -14,7 +14,7 @@ def hello():
 def getGPTResponse():
     data = request.get_json()
 
-    return requestGPT("Hi"))
+    return requestGPT("Hi")
 
 
 def requestGPT(prompt):
